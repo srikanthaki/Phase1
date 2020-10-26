@@ -35,8 +35,8 @@ public class BaseTest extends SearchPage {
 		/*File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("/home/srikanthaki182g/git/Phase1/Phase_1/TV.png"));*/
 		
-		List <WebElement>  col = driver.findElements(By.xpath("//h2"));
-        for(WebElement items: col ) {
+		//List <WebElement>  col = driver.findElements(By.xpath("//h2"));
+        for(WebElement items: s.links ) {
         	System.out.println(items.getText());  
         }
 	}

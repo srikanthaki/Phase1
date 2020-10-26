@@ -33,6 +33,8 @@ public class SearchPage  {
 	@FindBy(xpath="//span[text()='8.1 to 10ft']")
 	public WebElement Distance;
 	
+	@FindBy(xpath="//h2")
+	public List<WebElement>links;
 	
 	
 	public void Search(String text) {
